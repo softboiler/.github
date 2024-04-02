@@ -16,7 +16,7 @@ body:
       description: "Please verify the issue is present in the latest version by installing it with `pip install {{ project_name }}=={{ project_version }}` and checking."
       options:
         - required: True
-          label: "This bug affects {{ project_version }} of {{ project_name }}."
+          label: "This bug affects version `{{ project_version }}` of `{{ project_name }}`."
   - type: "input"
     id: "version"
     validations:
